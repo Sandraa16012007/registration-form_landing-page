@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <title>Sign In</title>
+    </head>
+
+    <body>
+
+        <div class="grid">
+
+            <div class="grid-item-left">
+                <img id="gaming-img" src="gaming.png">
+                <img id="second-img" src="img.png">
+                <h1 id="welcome-back">WELCOME BACK!</h1>
+                <p id="welcome-text">To keep connected with us please sign in with your personal details or sign up to get started.</p>
+                <a href="https://sandraa16012007.github.io/registration-form_sign-up-page/"><button id="sign-up-button">SIGN UP</button></a>
+            </div>
+
+            <div class="grid-item-right">
+
+                <h2 id="sign-in">Sign In</h2>
+                <p id="sign-in-text">Sign in if you have an already exisiting account</p>
+
+                <div class="sign-in-form">
+
+                    <form id="sign-in-form" action="/submit-url">
+                        <div class="input-column">
+                            <!--<img id="name-icon" src="/images/profile icon.png">-->
+                            <label for="name"><input type="text" name="name" id="name-input" placeholder="Name" required /></label>
+                        </div>
+                        <div class="input-column">
+                            <!--<img id="email-icon" src="\images\mail icon.png">-->
+                            <label for="email"><input type="text" name="email" id="email-input" placeholder="Email Address" required /></label>
+                        </div>
+                        <div class="input-column">
+                            <!--<img id="password-icon" src="\images\password icon.png">-->
+                            <label for="password"><input type="password" placeholder="Password" name="password" minlength=8 id="password-input" required /></label>
+                        </div>
+                    </form>
+                
+                    <p id="or-text">Or sign in using</p>
+
+                    <div class="icon-grid">
+                        <div class="grid-icon">
+                            <img id="google-icon" src="google-icon.webp">
+                        </div>
+                        <div class="grid-icon">
+                            <img id="facebook-icon" src="facebook-icon.png">
+                        </div>
+                        <div class="grid-icon">
+                            <img id="github-icon" src="github.png">
+                        </div>
+                    </div>
+
+                    <button id="sign-in-button">SIGN IN</button>
+                    
+
+                </div>
+        
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
